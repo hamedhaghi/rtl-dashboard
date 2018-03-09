@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.eot?-wwn5ej');
+    src: url('../fonts/Yekan.eot?#iefix-wwn5ej') format('embedded-opentype'),
+    url('../fonts/Yekan.woff?-wwn5ej') format('woff'),
+    url('../fonts/Yekan.ttf?-wwn5ej') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlegreyaSans-Regular';
+    src: url("../fonts/alegreya-sans/AlegreyaSans-Regular.otf") format("opentype");
+}
+
+
+body{
+
+    background: #e3e3e3;
+    font-family: 'Yekan';
+    font-size: 1.5em;
+
+
+}
+
+
+.header{
+
+    background: #222222;
+    color: #ddd;
+}
+
+.header i {
+
+    margin-top: 5px;
+    color: #fff;
+}
+
+.badge-count {
+
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    background: #00a1d3;
+    color: #fff;
+
+}
+
+.user-image {
+
+    height: 25px;
+    width: 25px;
+}
+
+
+.navigation
+{
+    padding-bottom: 100%;
+    /*margin-bottom: -100%;*/
+    border: solid 0 red;
+    background: #222222;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100vh;
+
+}
+
+@media (max-width: 768px) {
+
+    .navigation {
+
+        padding-bottom: 0;
+        margin-bottom: 10px;
+        position: relative;
+        height: 100%;
+
+    }
+}
+
+.navbar-static-top {
+    margin-bottom:0;
+}
+
+i {
+    font-size:14px;
+}
+
+
+
+.navigation .nav > li > a {
+    color:#ddd;
+    background: transparent;
+    display: block;
+
+}
+
+.navigation .nav > li > a:link {
+    color:#ddd;
+    background: transparent;
+}
+
+.navigation .nav > li > a:visited {
+    color:#ddd;
+    background: transparent;
+}
+
+.navigation .nav > li > a:hover
+{
+    background: #333333;
+    color: #00a1d3;
+}
+
+.navigation .nav > li:hover > a
+{
+      color: #00a1d3;
+}
+
+/* selected sub menu */
+.navigation .nav > li > ul > li.focus a {
+
+    background: #00a1d3;
+    color: #fff;
+}
+
+/* count indicator near icons */
+.nav>li .count {
+    position: absolute;
+    bottom: 12px;
+    right: 6px;
+    font-size: 9px;
+    background: rgba(51,200,51,0.55);
+    color: rgba(255,255,255,0.9);
+    line-height: 1em;
+    padding: 2px 4px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+.ul-bg{
+	background: #111111;
+}
+
+.content {
+
+    margin: 5px;
+}
+
+/* set margin rules for 5px */
+
+/* margin top*/
+.mt{
+
+    margin-top: 5px;
+}
+
+/* margin right*/
+.mr{
+
+    margin-right: 5px;
+}
+
+/* margin bottom*/
+.mb {
+
+    margin-bottom: 5px;
+}
+
+/* margin left*/
+.ml {
+
+    margin-left: 5px;
+}
+
+
+
+.trash {
+
+    color: #ff5959;
+}
+
+.trash:hover {
+
+    color: red;
+}
+
+
+.ltr {
+
+    text-align: left;
+    direction: ltr;
+}
+
+.rtl {
+    text-align: right;
+    direction: rtl;
+}
+
+.en {
+
+    font-family: 'AlegreyaSans-Regular', Tahoma;
+}
+
+.fixed-height-300 {
+
+    height: 300px;
+    overflow: auto;
+    overflow-x:hidden
+
+}
+
+
+
+/* -------- RTL Awesome Checkbox Radio Modification --------- */
+.checkbox.rtl {
+    padding-left: 0px;
+    padding-right: 20px; }
+.checkbox.rtl label {
+    padding-left: 0px;
+    padding-right: 5px; }
+.checkbox.rtl label::before {
+    left: auto;
+    right: 2px;
+    margin-left: 0;
+    /* -- my change --*/
+    margin-right: -22px;
+    /* -- my change --*/
+}
+.checkbox.rtl label::after {
+    left: auto;
+    right: 0;
+    margin-left: 0px;
+    margin-right: -20px;
+    padding-left: 0px;
+    padding-right: 3px; }
+.checkbox.rtl input[type="checkbox"]{
+    margin-left: 0px;
+}
+
+.radio.rtl {
+    padding-left: 0px;
+    padding-right: 20px;
+
+}
+.radio.rtl label {
+    padding-left: 0px;
+    padding-right: 5px; }
+.radio.rtl label::before {
+    left: auto;
+    right: -3px;
+    margin-left: 0;
+    margin-right: -20px;
+
+}
+.radio.rtl label::after {
+    left: auto;
+    right: 0;
+    margin-left: 0px;
+    margin-right: -20px;
+    padding-left: 0px;
+    padding-right: 3px;
+
+}
+.radio.rtl input[type="radio"]{
+    margin-left: 0px;
+
+}
+
+
+/* -------- RTL Awesome Checkbox & Radio Modification --------- */
+
+
+.table-img {
+
+    height: 50px;
+    width: 50px;
+}
+
+
+
+/* table vertical align to middle*/
+.table-baseline tbody tr td  {
+
+    vertical-align: middle;
+}
+
+.user-image-profile {
+
+    height: 150px;
+    width: 150px;
+}
+
+
+.users-big-label {
+
+    background: #b982c3;
+
+    box-shadow: 0 0 15px #ddd;
+}
+
+.posts-big-label {
+
+    background: #8cafe4;
+    box-shadow: 0 0 15px #ddd;
+}
+
+.products-big-label {
+
+    background: #94a606;
+    box-shadow: 0 0 15px #ddd;
+}
+
+.icon-light {
+
+    color: #fff;
+}
+
+
+.icon-dark {
+
+    color: #333333;
+
+}
+
+.large-icons {
+
+    font-size: 4em;
+}
+
+.rounded-div {
+
+    border-radius: 5px;
+}
+
+
+
+/* set padding rules for 5px */
+
+/* padding top*/
+.pt{
+
+    padding-top: 5px;
+}
+
+/* padding right*/
+.pr{
+
+    padding-right: 5px;
+}
+
+/* padding bottom*/
+.pb {
+
+   padding-bottom: 5px;
+}
+
+/* padding left*/
+.pl {
+
+    padding-left: 5px;
+}

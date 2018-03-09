@@ -1,0 +1,57 @@
+/*! BootstrapFileField v1.2.0 | (c) ajaxray.com | MIT License
+ * https://github.com/ajaxray/bootstrap-file-field
+ **/
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+ul.fileList.thumbs {
+    clear: both;
+    overflow: auto;
+}
+ul.fileList.thumbs li {
+    float: left;
+    position: relative;
+    margin: 10px 10px 10px 0;
+
+}
+ul.fileList.thumbs li img {
+    height: 100px;
+}
+
+ul.fileList.thumbs li img.icon {
+    background-color: #ddd;
+}
+
+ul.fileList.thumbs li span.file-name {
+    position: absolute;
+    display: inline-block;
+    left: 22px;
+    top: 22px;
+    width: 56px;
+    overflow-wrap: break-word;
+    height: 60px;
+    font-size: 9px;
+    color: #666;
+}
+
+ul.fileList.thumbs li img:not(.icon)+span.file-name {
+    display: none;
+}

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>برگه ی جدید</title>
+    <!-- StyleSheets -->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/awesome-bootstrap-checkbox.css">
+    <link rel="stylesheet" type="text/css" href="./fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome-animation.css">
+    <link rel="stylesheet" type="text/css" href="./css/select2.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/select2-bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/bootstrap_file_field.css">
+    <link rel="stylesheet" type="text/css" href="./css/dashboard.css">
+
+
+    <!-- End Of StyleSheets -->
+</head>
+
+<body>
+
+
+<!-- header -->
+<div id="top-nav" class="navbar navbar-inverse navbar-static-top header">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html"><img src="./img/bb.gif" height="23" width="23" alt=""></a>
+
+            <a class="navbar-brand" href="./index.html">پنل مدیریت</a>
+
+
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#">
+                    <i class="fa fa-bell fa-lg  faa-ring animated" aria-hidden="true"></i>
+                    <span class="badge badge-count">10</span>
+                </a></li>
+
+                <li><a href="#">
+                    <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+
+                </a></li>
+
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+
+                        <!--<i class="glyphicon glyphicon-user"></i>-->
+                        <span class="username">حامد حقی</span>
+                        &nbsp;&nbsp;
+                        <img alt="Hamed" class="user-image" src="./img/hamed.png">
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-left">
+                        <div class="log-arrow-up"></div>
+                        <li><a href="#"><i class="icon-suitcase"></i>پروفایل من</a></li>
+                        <li><a href="login.html"><i class="icon-key"></i> خروج</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- /container -->
+
+</div>
+<!-- /Header -->
+
+
+<!-- Main -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 navigation">
+            <!-- Start Navigation -->
+
+            <ul class="nav nav-stacked">
+                <li class="nav-header">
+                    <a href="#" data-toggle="collapse" data-target="#blogMenu">مدیریت بلاگ
+                        <i class="glyphicon glyphicon-menu-down pull-left"></i>
+                    </a>
+
+                    <ul class="nav nav-stacked ul-bg collapse in" id="blogMenu">
+                        <li><a href="./posts.html"><i class="glyphicon glyphicon-file  pull-left"></i>نوشته
+                            ها</a></li>
+                        <li class="focus"><a href="./pages.html"><i class="glyphicon glyphicon-duplicate pull-left"></i>برگه ها</a>
+                        </li>
+                        <li><a href="./categories.html"><i class="glyphicon glyphicon-list-alt pull-left"></i>دسته
+                            ها</a></li>
+                        <li><a href="./tags.html"><i class="glyphicon glyphicon-tags pull-left"></i>تگ ها</a></li>
+
+                    </ul>
+                </li>
+
+
+            </ul>
+
+
+            <ul class="nav nav-stacked">
+                <li>
+                    <a href="#" data-toggle="collapse" data-target="#shopMenu">مدیریت فروشگاه
+                        <i class="glyphicon glyphicon-menu-down pull-left"></i>
+                    </a>
+
+                    <ul class="nav nav-stacked ul-bg collapse in" id="shopMenu">
+                        <li><a href="#"><i class="fa fa-product-hunt pull-left" aria-hidden="true"></i>محصولات</a></li>
+                        <li><a href="#"><i class="fa fa-th-large pull-left" aria-hidden="true"></i>دسته بندی</a></li>
+                        <li><a href="#"><i class="fa fa-gift pull-left" aria-hidden="true"></i>سفارشات</a></li>
+
+
+                    </ul>
+                </li>
+
+
+            </ul>
+
+
+            <ul class="nav nav-stacked">
+                <li>
+                    <a href="#" data-toggle="collapse" data-target="#userMenu">کاربران
+                        <i class="glyphicon glyphicon-menu-down pull-left"></i>
+                    </a>
+
+                    <ul class="nav nav-stacked ul-bg collapse in" id="userMenu">
+                        <li><a href="#"><i class="fa fa-user-plus pull-left" aria-hidden="true"></i>کاربر جدید</a></li>
+                        <li><a href="#"><i class="fa fa-users pull-left" aria-hidden="true"></i>لیست کاربران</a></li>
+
+
+                    </ul>
+                </li>
+
+
+            </ul>
+
+
+        </div>
+        <!-- End Navigation -->
+
+        <!-- Start Content -->
+        <div class="col-sm-10">
+
+            <div class="row content">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+
+                        <a href="./pages.html" class="pull-left">برگه ها</a>
+                        <h1 class="panel-title"><i class="glyphicon glyphicon-duplicate pull-right ml"></i>برگه ی جدید
+                        </h1>
+
+
+                    </div>
+                    <div class="panel-body">
+
+                        <form action="./pageCreate.html" method="post">
+
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <div class="form-group">
+                                        <input type="text" autocomplete="off" name="title" class="form-control" placeholder="عنوان ...">
+                                        <br>
+
+                                        <textarea name="body" id="body" cols="30" rows="10"
+                                                  class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-block">
+                                            ذخیره<span class="glyphicon glyphicon-ok mr" aria-hidden="true"></span>
+                                        </button>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+
+
+                                            <h1 class="panel-title"><i
+                                                    class="glyphicon glyphicon-cog pull-right ml"></i>تنظیمات</h1>
+
+
+                                        </div>
+                                        <div class="panel-body">
+
+                                            <div class="form-group">
+                                                <div class="checkbox rtl checkbox-primary">
+                                                    <input type="checkbox" id="IsNewTab"  name="IsNewTab">
+                                                    <label for="IsNewTab">
+                                                        تب جدید باز شود
+                                                    </label>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="checkbox rtl checkbox-primary">
+                                                    <input type="checkbox" id="IsVisible" checked="checked"  name="IsVisible">
+                                                    <label for="IsVisible">
+                                                        نمایش برگه
+                                                    </label>
+                                                </div>
+
+                                            </div>
+
+                                            <hr>
+
+                                            <div class="form-group">
+                                                <select name="parents" class="form-control">
+                                                    <option value="0" selected="selected">بدون برگه ی والد</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col-sm-2">
+                                                        <label for="order" class="mt">ترتیب:</label>
+                                                    </div>
+                                                    <div class="col-sm-10">
+
+                                                        <input type="number" name="order" value="0" id="order" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col-sm-2">
+                                                        <label for="url" class="mt">نشانی:</label>
+                                                    </div>
+                                                    <div class="col-sm-10">
+
+                                                        <input type="text" autocomplete="off" name="url" placeholder="Custom URL ..." id="url" class="form-control en ltr">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+
+
+                                            <h1 class="panel-title"><i
+                                                    class="glyphicon glyphicon-picture pull-right ml"></i>انتخاب تصویر
+                                            </h1>
+
+
+                                        </div>
+                                        <div class="panel-body">
+                                            <input type="file" id="file" name="file">
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default ">
+                                        <div class="panel-heading">
+
+
+                                            <h1 class="panel-title"><i
+                                                    class="glyphicon glyphicon-list pull-right ml"></i>انتخاب دسته</h1>
+
+
+                                        </div>
+                                        <div class="panel-body fixed-height-300">
+                                            <div class="checkbox rtl checkbox-primary">
+                                                <input type="checkbox">
+                                                <label>
+                                                    خبر
+                                                </label>
+                                            </div>
+                                            <div class="checkbox rtl checkbox-primary">
+                                                <input type="checkbox">
+                                                <label>
+                                                    بازی
+                                                </label>
+                                            </div>
+                                            <div class="checkbox rtl checkbox-primary">
+                                                <input type="checkbox">
+                                                <label>
+                                                    موسیقی
+                                                </label>
+                                            </div>
+                                            <div class="checkbox rtl checkbox-primary">
+                                                <input type="checkbox">
+                                                <label>
+                                                    نرم افزار
+                                                </label>
+                                            </div>
+                                            <div class="checkbox rtl checkbox-primary">
+                                                <input type="checkbox">
+                                                <label>
+                                                    تصاویر
+                                                </label>
+                                            </div>
+                                            <div class="checkbox rtl checkbox-primary">
+                                                <input type="checkbox">
+                                                <label>
+                                                    تصاویر
+                                                </label>
+                                            </div>
+                                            <div class="checkbox rtl checkbox-primary">
+                                                <input type="checkbox">
+                                                <label>
+                                                    تصاویر
+                                                </label>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+
+
+                                            <h1 class="panel-title"><i
+                                                    class="glyphicon glyphicon-tags pull-right ml"></i>انتخاب تگ
+                                            </h1>
+
+
+                                        </div>
+                                        <div class="panel-body">
+                                            <select class="tags form-control" multiple="multiple">
+                                                <option>نوشته</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!--/row-->
+
+
+        </div>
+        <!-- End Content -->
+    </div>
+</div>
+<!-- /Main -->
+
+
+<!-- Scripts -->
+
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/ckeditor/ckeditor.js"></script>
+<script src="./js/select2.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap_file_field.js"></script>
+<script type="text/javascript" src="./js/dashboard.js"></script>
+<script>
+    // CKEditor initialization <textarea id='body'></textarea>
+    CKEDITOR.replace('body');
+    // --
+
+    // File Upload initialization
+    $('#file').bootstrapFileField({
+
+        // label text for file input
+        label: "انتخاب ...",
+
+        // default button class
+        btnClass: 'btn btn-default btn-block',
+
+        // enable/disable file preview
+        preview: 'on',
+
+        // restric file types by mime type
+        fileTypes: false,
+
+        // max/min file size
+        maxFileSize: false,
+        minFileSize: false,
+
+        // max totle size
+        maxTotalSize: false,
+
+        // max/min number of files
+        maxNumFiles: false,
+        minNumFiles: false
+
+    });
+
+    // --
+
+
+</script>
+
+<script type="text/javascript">
+    //tags
+    $(".tags").select2({
+        tags: true,
+        dir:"ltr",
+        theme: "bootstrap",
+        tokenSeparators: [' ']
+    })
+</script>
+
+
+<!-- End of Scripts -->
+
+</body>
+</html>

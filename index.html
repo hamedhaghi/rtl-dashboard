@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>مدیریت</title>
+    <!-- StyleSheets -->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="./fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome-animation.css">
+    <link rel="stylesheet" type="text/css" href="./css/dashboard.css">
+
+    <!-- End Of StyleSheets -->
+</head>
+
+<body>
+
+
+<!-- header -->
+<div id="top-nav" class="navbar navbar-inverse navbar-static-top header">
+    <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+
+                <a class="navbar-brand" href="./index.html">پنل مدیریت</a>
+                 <span class="navbar-brand"></span>
+                <span class="navbar-brand"></span>
+                <span class="navbar-brand"></span>
+                <span class="navbar-brand"></span>
+                <span class="navbar-brand"></span>
+                <span class="navbar-brand"></span>
+                <span class="navbar-brand"></span>
+                <span class="navbar-brand"></span>
+            </a>
+
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">دسترسی سریع <span class="caret"></span></a>
+                        <ul id="g-account-menu" class="dropdown-menu" role="menu">
+                            <li><a href="./postCreate.html">افزودن نوشته</a></li>
+                            <li><a href="./pageCreate.html">افزودن برگه</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-left">
+
+                    <li><a href="#">
+                        <i class="fa fa-shopping-bag fa-lg" aria-hidden="true"></i>
+                        <span class="badge badge-count">3</span>
+                    </a></li>
+
+                    <li><a href="#">
+                        <i class="fa fa-bell fa-lg  faa-ring animated" aria-hidden="true"></i>
+                        <span class="badge badge-count">10</span>
+                    </a></li>
+
+                    <li><a href="#">
+                        <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                        <span class="badge badge-count">7</span>
+                    </a></li>
+
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+
+                            <!--<i class="glyphicon glyphicon-user"></i>-->
+                            <span class="username">حامد حقی</span>
+                            &nbsp;&nbsp;
+                            <img alt="Hamed" class="user-image" src="./img/hamed.png">
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-left">
+                            <div class="log-arrow-up"></div>
+                            <li><a href="#"><i class="icon-suitcase"></i>پروفایل من</a></li>
+                            <li><a href="login.html"><i class="icon-key"></i> خروج</a></li>
+                        </ul>
+                    </li>
+
+
+
+                </ul>
+            </div>
+
+    </div>
+    <!-- /container -->
+
+</div>
+<!-- /Header -->
+
+
+<!-- Main -->
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-sm-2 navigation">
+            <!-- Start Navigation -->
+
+            <ul class="nav nav-stacked">
+                <li class="nav-header">
+                    <a href="#" data-toggle="collapse" data-target="#blogMenu">مدیریت بلاگ
+                        <i class="glyphicon glyphicon-menu-down pull-left"></i>
+                    </a>
+
+                    <ul class="nav nav-stacked ul-bg collapse in" id="blogMenu">
+                        <li><a href="./posts.html"><i class="glyphicon glyphicon-file  pull-left"></i>نوشته ها</a></li>
+                        <li><a href="./pages.html"><i class="glyphicon glyphicon-duplicate pull-left"></i>برگه ها</a>
+                        </li>
+                        <li><a href="./categories.html"><i class="glyphicon glyphicon-list-alt pull-left"></i>دسته
+                            ها</a></li>
+                        <li><a href="./tags.html"><i class="glyphicon glyphicon-tags pull-left"></i>تگ ها</a></li>
+
+                    </ul>
+                </li>
+
+
+            </ul>
+
+
+            <ul class="nav nav-stacked">
+                <li>
+                    <a href="#" data-toggle="collapse" data-target="#shopMenu">مدیریت فروشگاه
+                        <i class="glyphicon glyphicon-menu-down pull-left"></i>
+                    </a>
+
+                    <ul class="nav nav-stacked ul-bg collapse in" id="shopMenu">
+                        <li><a href="./products.html"><i class="fa fa-product-hunt pull-left" aria-hidden="true"></i>محصولات</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-th-large pull-left" aria-hidden="true"></i>دسته بندی</a></li>
+                        <li><a href="#"><i class="fa fa-shopping-bag pull-left" aria-hidden="true"></i>سفارشات</a></li>
+
+
+                    </ul>
+                </li>
+
+
+            </ul>
+
+
+            <ul class="nav nav-stacked">
+                <li>
+                    <a href="#" data-toggle="collapse" data-target="#userMenu">کاربران
+                        <i class="glyphicon glyphicon-menu-down pull-left"></i>
+                    </a>
+
+                    <ul class="nav nav-stacked ul-bg collapse in" id="userMenu">
+                        <li><a href="./userCreate.html"><i class="fa fa-user-plus pull-left" aria-hidden="true"></i>کاربر
+                            جدید</a></li>
+                        <li><a href="./users.html"><i class="fa fa-users pull-left" aria-hidden="true"></i>لیست کاربران</a>
+                        </li>
+
+
+                    </ul>
+                </li>
+
+
+            </ul>
+
+
+        </div>
+        <!-- End Navigation -->
+
+        <!-- Start Content -->
+        <div class="col-sm-10">
+
+           <!-- <div class="row mt ml mr mb pt pb">
+                <div class="col-sm-3  posts-big-label text-center rounded-div pt pb mt mb ">
+                    <i class="glyphicon glyphicon-file large-icons icon-light"></i>
+                    <br>
+                    <h4>نوشته ها</h4>
+                </div>
+
+                <div class="col-sm-4 col-sm-offset-1  users-big-label text-center rounded-div pt pb mt mb">
+                    <i class="fa fa-users large-icons icon-light"></i>
+                    <br>
+                    <h4>کاربران</h4>
+                </div>
+
+                <div class="col-sm-3 col-sm-offset-1  products-big-label text-center rounded-div pt pb mt mb">
+                    <i class="fa fa-product-hunt large-icons icon-light"></i>
+                    <br>
+                    <h4>محصولات</h4>
+                </div>
+
+
+            </div>-->
+            <div class="alert alert-info">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                این یک پیام آزمایشی است.
+            </div>
+
+            <div class="row mt">
+                <!-- center left-->
+                <div class="col-md-6">
+
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="glyphicon glyphicon-stats ml"></i>گزارشات</h4></div>
+                        <div class="panel-body">
+                            <!-- Start Chart -->
+                            <canvas id="myChart" width="400" height="400"></canvas>
+                            <!--End Chart -->
+
+                        </div>
+                        <!--/panel-body-->
+                    </div>
+                    <!--/panel-->
+
+
+
+
+
+
+                </div>
+                <!--/col-->
+                <div class="col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4><i class="fa fa-shopping-bag ml"></i>آخرین سفارشات</h4></div>
+                        <div class="panel-body">
+
+                            <!-- Start Table -->
+                            <div class="table-responsive">
+                                <table class="table table-striped table-baseline">
+
+
+                                    <tbody class="text-center">
+                                    <tr>
+                                        <td><img src="./img/hamed.png" class="img-circle table-img" alt=""></td>
+                                        <td>حامد حقی</td>
+                                        <td>15/12/1396</td>
+                                        <td><a href="#" title="مشاهده">مشاهده</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><img src="./img/user1.png" class="img-circle table-img" alt=""></td>
+                                        <td>حامد حقی</td>
+                                        <td>15/12/1396</td>
+                                        <td><a href="#" title="مشاهده">مشاهده</a></td>
+                                    </tr>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- End Table -->
+                        </div>
+                    </div>
+
+
+                    <!--tabs-->
+                    <div class="panel">
+                        <ul class="nav nav-tabs" id="myTab">
+                            <li class="active"><a href="#profile" data-toggle="tab">پروفایل</a></li>
+                            <li><a href="#messages" data-toggle="tab">پیام ها</a></li>
+                            <li><a href="#settings" data-toggle="tab">تنظیمات</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active well" id="profile">
+                                <h4><i class="glyphicon glyphicon-user"></i></h4>
+                                <p>
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                </p>
+                            </div>
+                            <div class="tab-pane well" id="messages">
+                                <h4><i class="glyphicon glyphicon-comment"></i></h4>
+                                <p>
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                </p>
+                            </div>
+                            <div class="tab-pane well" id="settings">
+                                <h4><i class="glyphicon glyphicon-cog"></i></h4>
+                                <p>
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/tabs-->
+
+                </div>
+                <!--/col-span-6-->
+
+            </div>
+            <!--/row-->
+
+
+        </div>
+        <!-- End Content -->
+    </div>
+</div>
+<!-- /Main -->
+
+
+<!-- Scripts -->
+
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/dashboard.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+<script>
+
+    Chart.defaults.global.defaultFontColor = '#333333';
+    Chart.defaults.global.defaultFontFamily = 'Yekan';
+    Chart.defaults.global.defaultFontSize = 15;
+    Chart.defaults.global.legend.display = false;
+
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ["فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان",
+                "آذر",
+                "دی",
+                "بهمن",
+                "اسفند"
+            ],
+            datasets: [{
+                label: 'سفارشات',
+                data: [12, 19, 3, 5, 2, 3, 1, 1, 4, 5, 6, 7],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                ],
+                borderWidth: 1
+
+            }]
+        },
+
+
+        options: {
+
+            title: {
+                display: false,
+                fontSize: 20,
+                position: 'bottom',
+                text: "This Year"
+
+            },
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        display: false
+                    }
+                }],
+                yAxes: [{
+                    gridLines: {
+                        display: false
+                    },
+                    ticks: {
+                        beginAtZero: false,
+                        userCallback: function (label) {
+                            // when the floored value is the same as the value we have a whole number
+                            if (Math.floor(label) === label) {
+                                return label;
+                            }
+
+                        }
+                    }
+                }]
+            }
+        }
+    });
+</script>
+
+
+<!-- End of Scripts -->
+
+</body>
+</html>
